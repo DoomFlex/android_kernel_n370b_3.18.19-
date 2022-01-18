@@ -1,0 +1,6 @@
+#!/bin/bash
+cp out/Build/arch/arm/boot/zImage-dtb ../anykernel2/zImage
+cd pack/
+zip -r "kernel-$(date +"%Y-%m-%d-%H-%M").zip" zImage anykernel.sh META-INF modules patch ramdisk tools && adb push kernel-$(date +"%Y-%m-%d-%H-%M").zip sdcard/
+cd ../
+

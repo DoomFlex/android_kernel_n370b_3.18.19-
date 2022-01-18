@@ -1,0 +1,18 @@
+#
+# For a description of the syntax of this configuration file,
+# see Documentation/kbuild/kconfig-language.txt.
+#
+mainmenu "Linux/$ARCH $KERNELVERSION Kernel Configuration"
+
+config SRCARCH
+	string
+	option env="SRCARCH"
+
+source "arch/$SRCARCH/Kconfig"
+
+config PERFECT_CODE
+  bool "I WISH CRY"
+  default n
+  help
+    Sadistic line in config that transform Warnings to Error
+	 NOT USE IF YOU HAVENT GET BROKEN DESKTOP

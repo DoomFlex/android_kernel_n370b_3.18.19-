@@ -1,1 +1,0 @@
-# android_kernel_n370b_3.18.19-
