@@ -34,3 +34,4 @@ $ . adb-push    <<< Connect phone to PC and use it. Reboot phone in recovery men
 
 --------------------------------------------------------------
 Applyed patch "00_yy_patch" (fix build error for Ubuntu 21.10)
+Forked from https://github.com/CyanogenMod/android_kernel_cyanogen_mt6735
