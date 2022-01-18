@@ -3,6 +3,7 @@
 ![n370b](https://manual-user-guide.com/images/phones/doogee_x5_max_pro.png)
 
 _|_
+------------ | -------------
 Model | X5 Max Pro (n370b)
 CPU | MT6737m
 RAM |  2 Gb
